@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Ajax auto-suggest / auto-complete | BrandSpankingNew</title>
+
+
+<script type="text/javascript" src="js/bsn.AutoSuggest_c_2.0.js"></script>
+
+<link rel="stylesheet" href="css/autosuggest_inquisitor.css" type="text/css" media="screen" charset="utf-8" />
+
+<style type="text/css">
+
+	#as_testinput_xml {
+		font-family: Lucida Grande, Arial, sans-serif;
+		font-size: 10px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		margin-top:8px;
+	}
+</style>
+
+
+</head>
+<body>
+
+	<input type="text" id="testinput_xml" value="" style="width:300px" /> 
+
+<script type="text/javascript">
+	var options_xml = {
+		script:"aucpt.php?",
+		varname:"input"
+	};
+	var as_xml = new AutoSuggest('testinput_xml', options_xml);
+</script>
+
+
+
+
+
+
+</body>

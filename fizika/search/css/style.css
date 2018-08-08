@@ -1,0 +1,72 @@
+/*-------------
+SEARCH
+-------------*/
+.inputIE{
+	position:absolute;
+	left:auto;
+	top:81px;
+	width:158px;
+    padding:5px 15px 5px 32px;
+    border-radius:5px;
+    border:1px solid #0a7dbb;
+    border-top:1px solid #0a7dbb;
+    box-shadow:inset 0 1px 2px #000; /*alpha=0.8*/
+    float:right;
+    background:url(../images/search-icon-focus.png) 7px no-repeat #139eea; /*alpha=0.4*/
+	filter:alpha(opacity=80);
+	margin-top:20px;
+}
+.inputIE.focus {
+    border:1px solid #0a7dbb;
+    box-shadow:0 0 6px #0a7dbb, inset 0 1px 2px #000; /*alpha=0.8*/
+	background:url(../images/search-icon.png) 7px no-repeat #9fddfa; /*alpha=0.9*/
+	filter:alpha(opacity=90);
+	width:158px;
+}
+
+
+div.input {
+	position:absolute;
+	left:auto;
+	top:81px;
+	width:158px;
+    padding:5px 15px 5px 32px;
+    border-radius:5px;
+    border:1px solid #0a7dbb;
+    border-top:1px solid #0a7dbb;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.08);
+    float:right;
+    background:url(../images/search-icon-focus.png) 7px no-repeat rgba(19,158,234,0.4);
+	margin-top:20px;
+}
+
+div.input.focus {
+    border:1px solid #0a7dbb;
+    box-shadow:0 0 6px #0a7dbb, inset 0 1px 2px rgba(0,0,0,0.08);
+	background:url(../images/search-icon.png) 7px no-repeat rgba(159,221,250,0.9);
+	width:158px;
+}
+
+input#s {
+    width:100%;
+    border:0;
+    border-radius:5px;
+    background:transparent;
+    height:14px;
+    color:#fff;
+    text-shadow:1px 1px 1px #E9E9E9;
+	font-size:14px;
+}
+
+input#s:focus {
+    outline:none;
+	color:#065e8e;
+	text-shadow:none;
+	width:218px;
+}
+input#s:blur{
+	width:158px;
+}
+
+
+
